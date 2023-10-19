@@ -1,0 +1,28 @@
+
+	1. git config --global user.name "Mashood-Basharat"
+	2. git config --global user.email "mashoodbasharat7890@gmail.com"
+	3. git clone <link>	used to clone repo from github to local system
+	4. ls			prints the list of files inside the folder
+	5. ls -a
+	6. git status	used to check the status of our git, whether is there anything to commit
+
+	modify => add change => commit that change
+	git statuses:
+		unmodified: unchanged
+		modified: changed
+		untracked: new files that git didn't yet tracked
+		staged: file is ready to be commited
+		whenever a new change is made, the change is added and the status is staged and ready to be committed
+		whenever the change is committed then the file becomes unchanged
+
+	change made to existing file (modified) -> add that change (staged) -> commit the change (unmodified)
+	new file added to git (untracked) -> add that file (staged) -> commit the file(unmodified)
+
+	7. git add <filename>	adds a new file to repo
+	8. git add .		adds all files to git
+	9. git commit -m "some meassage"
+
+	push: upload local repo content to remote repo
+
+	10. git push origin main
+		
