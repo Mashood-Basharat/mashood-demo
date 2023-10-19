@@ -19,7 +19,7 @@
 	new file added to git (untracked) -> add that file (staged) -> commit the file(unmodified)
 
 	7. git add <filename>	adds a new file to repo
-	8. git add .		adds all files to git
+	8. git add .		adds changes made, to the git
 	9. git commit -m "some meassage"
 
 	push: upload local repo content to remote repo
