@@ -35,3 +35,4 @@
 	14. git remote -v		used to verify git
 	15. git branch			used to check on which branch we are present
 	16. git branch -M main	used to change the branch name to main
+		git push origin main
