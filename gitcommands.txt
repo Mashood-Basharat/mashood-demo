@@ -46,3 +46,8 @@
 	20. git diff <branchname>			to compare commits, branches, files and more
 	21. git merge <branchname>			to merge branches
 	22. git pull origin main			to fetch content from remote repo to local repo
+
+		Resolving merge conflicts
+			Accept current change [The change made on current branch]
+			Accept incoming change [The change made on other branch]
+			Accept both changes
