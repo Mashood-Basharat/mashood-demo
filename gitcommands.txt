@@ -51,3 +51,19 @@
 			Accept current change [The change made on current branch]
 			Accept incoming change [The change made on other branch]
 			Accept both changes
+
+	23. git log				to check the history of commits we made
+
+
+	Undoing Changes
+			Case 1: satged change(added but not commited)
+	24. git reset <filename>
+	25.	git reset
+
+			Case 2: committed change(both added and commited)
+	26. git reset HEAD~1		reset commit and take the status to one head before
+
+			Case 3: committed changes(for more than one commits)
+	27. git reset <commit's hash>
+	28. git reset --hard <commit's hash>
+	
