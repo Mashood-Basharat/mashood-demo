@@ -66,4 +66,8 @@
 			Case 3: committed changes(for more than one commits)
 	27. git reset <commit's hash>
 	28. git reset --hard <commit's hash>
-	
+	29. git log				to check the history of commits
+			When this command is executed the sequence of heads are shown
+			Each head is associaed with each commit having a hash number
+			We can reset the commit to "One head previous" or can use hash code
+			to jump back to a certain head and reset the commits till that head
