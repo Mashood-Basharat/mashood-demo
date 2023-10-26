@@ -74,3 +74,9 @@
 
 			git reset --hard <commit's hash> This command not only reset the commits on github
 			but also on VS code
+
+		Fork is a rough copy of a repository
+			It is a new Repo that shares the same code and visibility settings with the original upstream Repo
+
+		Using fork in github we can make rough copy of somone's repo on our account and then make pull request
+		If the owner accepts our pull request the change we made to his code also reflects on his original Repo
