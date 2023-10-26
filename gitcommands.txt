@@ -71,3 +71,6 @@
 			Each head is associaed with each commit having a hash number
 			We can reset the commit to "One head previous" or can use hash code
 			to jump back to a certain head and reset the commits till that head
+
+			git reset --hard <commit's hash> This command not only reset the commits on github
+			but also on VS code
